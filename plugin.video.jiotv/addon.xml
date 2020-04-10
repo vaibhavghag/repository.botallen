@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.jiotv" name="JioTV" version="1.0.8-4" provider-name="botallen">
+    <requires>
+        <import addon="xbmc.python" version="2.25.0"/>
+        <import addon="script.module.routing" version="0.2.0"/>
+        <import addon="script.module.requests" />
+        <import addon="script.module.inputstreamhelper"/>
+        <import addon="repository.botallen" version="1.0.0" />
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="main.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Stream Live Indian Channels From JioTV on Kodi</summary>
+        <description lang="en_GB">Unofficial JioTV kodi addon by botallen</description>
+        <language></language>
+        <platform>all</platform>
+        <license>MIT</license>
+        <forum></forum>
+        <website>kodi.botallen.com</website>
+        <email>kodi@botallen.com</email>
+        <source>https://github.com/vaibhavghag/repository.botallen/tree/master/plugin.video.jiotv</source>
+        <news>
+	  1.0.8 (2020-03-17)
+      [added] Star sports channels are working now #3 (major)
+      [added] Catchup support for upto 7 days of shows (major)
+      [added] categories icons (minor)
+	    </news>
+        <disclaimer>This is a third-party add-on and is not affiliated with Jio.</disclaimer>
+        <assets>
+            <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
