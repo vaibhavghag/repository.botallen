@@ -39,11 +39,11 @@ def login(username, password):
         _CREDS = {"ssotoken": data['ssoToken'], "userId": data['sessionAttributes']['user']['uid'],
                   "uniqueId": data['sessionAttributes']['user']['unique'], "crmid": data['sessionAttributes']['user']['subscriberId']}
         headers = {
-            "User-Agent": "JioTV Kodi",
-            "os": "Kodi",
-            "deviceId": "6fcadeb7b4b10d77",
+            "User-Agent": "Jokhttp/3.12.0",
+            "os": "android",
+            "deviceId": "ddb9455345aa3b3e",
             "versionCode": "226",
-            "devicetype": "Kodi",
+            "devicetype": "phone",
             "srno": "200206173037",
             "appkey": "NzNiMDhlYzQyNjJm",
             "channelid": "100",
